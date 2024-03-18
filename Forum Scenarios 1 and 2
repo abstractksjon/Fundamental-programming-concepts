@@ -1,0 +1,25 @@
+/***********************************
+* Forum Scenarios 1 and 2          *
+* By Juan Sebastian Acevedo Rivas  *
+***********************************/
+
+import java.util.Scanner;
+
+public class ParImpar {
+
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Write an integer: ");
+        int number = input.nextInt();
+        
+        if (number % 2 == 0) {
+            System.out.print("Even");
+        }
+        
+        if (number % 2 != 0) {
+            System.out.print("Odd");
+        }
+    }
+}
